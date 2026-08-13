@@ -8,14 +8,14 @@ int main(int argc, char *argv[]) {
 	
 	float area, BASE, base, altura;
 	
-	printf("Insira o valor da base maior, base menor e altura do trapesio: ");
+	printf("Insira o valor da base maior, base menor e altura do trapezio: ");
 	scanf("%f", &BASE);
 	scanf("%f", &base);
 	scanf("%f", &altura);
 	
 	area = ((BASE+base)*altura)/2;
 	
-	printf("A area do trapesio e %f" , area);
+	printf("A area do trapezio e %f" , area);
 	
 	return 0;
 }
