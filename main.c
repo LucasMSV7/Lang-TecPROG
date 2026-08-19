@@ -1,31 +1,71 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define pi 3.141592
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
 
-	float area, raio, r2;
-
-	printf("Insira o raio do circulo");
-	scanf("%f", &raio);
-
-	r2 = raio*raio;
-	area = pi*r2;
-
-	printf("A area do circulo de raio %f = %f", raio, area);
+/*
+	int primeiro, segundo, aux;
 	
-	float area, BASE, base, altura;
+	printf("Exercicio1\n");
 	
-	printf("Insira o valor da base maior, base menor e altura do trapezio: ");
-	scanf("%f", &BASE);
-	scanf("%f", &base);
-	scanf("%f", &altura);
+	printf("Insira o primeiro valor: ");
+	scanf("%d", &primeiro);
+	printf("Insira o segundo valor: ");
+	scanf("%d", &segundo);
 	
-	area = ((BASE+base)*altura)/2;
+	  aux = primeiro;
+	  primeiro = segundo;
+	  segundo = aux;
+	  
+	printf("%d\n%d", primeiro, segundo);
 	
-	printf("A area do trapezio e %f" , area);
 	
+	printf("\nExercicio3");
+	
+	int n, resultado, bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
+	
+	printf("\nEntre com o valor para a conversao: ");
+	scanf("%d", &n);
+	
+	bit_64 = n%2;
+	resultado = n/2;
+	
+	bit_32 = resultado%2;
+	resultado = resultado/2;
+	
+	bit_16 = resultado%2;
+	resultado = resultado/2;
+	
+	bit_8 = resultado%2;
+	resultado = resultado/2;
+	
+	bit_4 = resultado%2;
+	resultado = resultado/2;
+	
+	bit_2 = resultado%2;
+	resultado = resultado/2;
+	
+	printf("O numero %d em binario = %d%d%d%d%d%d%d", n,
+	        resultado%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);*/
+	        
+   printf("Exercicio8");
+   
+   int x1, x2, y1, y2, p1, p2;
+   float dist;
+   
+   printf("Insira as coordenadas do ponto P1: ");
+   scanf("(%d , %d)", &x1, &y1);
+   
+   printf("Insira as coordenadas do ponto P1: ");
+   scanf("(%d , %d)", &x2, &y2);
+   
+   p1 = pow(x2-x1, 2);
+   p2 = pow(y2-y1, 2);
+   
+   dist = sqrt(p1+p2);
+   
+   printf("Distancia (%f)", dist);
+		  
 	return 0;
 }
