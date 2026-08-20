@@ -4,10 +4,9 @@
 
 int main(int argc, char *argv[]) {
 
-/*
 	int primeiro, segundo, aux;
 	
-	printf("Exercicio1\n");
+	//exercicio1//
 	
 	printf("Insira o primeiro valor: ");
 	scanf("%d", &primeiro);
@@ -21,7 +20,7 @@ int main(int argc, char *argv[]) {
 	printf("%d\n%d", primeiro, segundo);
 	
 	
-	printf("\nExercicio3");
+	//exercicio3//
 	
 	int n, resultado, bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
 	
@@ -49,7 +48,7 @@ int main(int argc, char *argv[]) {
 	printf("O numero %d em binario = %d%d%d%d%d%d%d", n,
 	        resultado%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);*/
 	        
-   printf("Exercicio8");
+   //exercicio8//
    
    int x1, x2, y1, y2, p1, p2;
    float dist;
