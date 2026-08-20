@@ -5,6 +5,7 @@
 int main(int argc, char *argv[]) {
 
 	int primeiro, segundo, aux;
+
 	
 	//exercicio1//
 	
@@ -47,8 +48,28 @@ int main(int argc, char *argv[]) {
 	
 	printf("O numero %d em binario = %d%d%d%d%d%d%d", n,
 	        resultado%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);*/
-	        
-   //exercicio8//
+
+		
+	//exercicio4//
+
+	char nome[50];
+	double salario_fixo, total_vendas, total_receber;
+	
+	printf("Nome: ");
+	scanf("%s", nome);
+	
+	printf("Salario fixo: ");
+	scanf("%lf", &salario_fixo);
+	
+	printf("Total de vendas: ");
+	scanf("%lf", &total_vendas);
+	
+	total_receber = salario_fixo + (total_vendas * 0.15);
+	
+	printf("Total = R$ %.2f\n", total_receber);
+
+	
+	//exercicio8//
    
    int x1, x2, y1, y2, p1, p2;
    float dist;
