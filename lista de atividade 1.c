@@ -67,8 +67,56 @@ int main(int argc, char *argv[]) {
 	total_receber = salario_fixo + (total_vendas * 0.15);
 	
 	printf("Total = R$ %.2f\n", total_receber);
-
 	
+
+	//exercicio5//
+
+	int a,b,c,d;
+    int soma, media, produto;
+
+    printf("Digite 4 valores: ");
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+
+    soma = a+b+c+d;
+    media = soma/4;
+    produto = a*b*c*d;
+
+    printf("Soma: %d\n", soma);
+    printf("Media: %d\n", media);
+    printf("Produtorio: %d\n", produto);
+
+
+	//exercicio6//
+
+	int idade, anos, meses, dias;
+
+    scanf("%d", &idade);
+
+    anos = idade/365;
+    idade = idade % 30;
+
+    meses = idade/30;
+    dias = idade % 30;
+
+    printf("%d ano(s)\n", anos);
+    printf("%d mes(es)\n", meses);
+    printf("%d dia(s)\n", dias);
+
+
+	//exercicio7//
+
+	printf("Volume de uma esfera: ");
+       
+    double R, volume;
+    double pi = 3.14159;
+
+    scanf("%lf", &R);
+
+    volume = (4.0/3.0) * pi * R * R * R;
+
+     printf("VOLUME = %.3lf\n", volume);	
+
+
 	//exercicio8//
    
    int x1, x2, y1, y2, p1, p2;
