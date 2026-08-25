@@ -4,10 +4,9 @@
 
 int main(int argc, char *argv[]) {
 
-	int primeiro, segundo, aux;
-
-	
 	//exercicio1//
+
+	int primeiro, segundo, aux;
 	
 	printf("Insira o primeiro valor: ");
 	scanf("%d", &primeiro);
