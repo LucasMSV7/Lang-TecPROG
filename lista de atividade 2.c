@@ -49,6 +49,21 @@ int main(int argc, char *argv[]) {
 
 //exercicio4//
 
+	int c, f;
+	
+	printf("Valor da temperatura em °C: ");
+    scanf("%d", &c);
+	
+	f=c*(9.0/5.0)+32.0;
+	
+	printf("Covertido para Fahrenhit: %d", f);
+	
+	return 0;
+
+
+//exercicio5//
+
+	
 	
 	
 //exercicio10//
