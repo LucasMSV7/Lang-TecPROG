@@ -72,8 +72,37 @@ int main(int argc, char *argv[]) {
 
     radianos = graus * p / 180.0;
 
-    printf("O ângulo em radianos é: %.6f\n", radianos);	
+    printf("O ângulo em radianos é: %.6f\n", radianos);
+
+
+//exercicio6//
+
+	int numero, antecessor, sucessor;
+
+    printf("Digite um valor: ");
+    scanf("%d", &numero);
+
+    antecessor = numero-1;
+    sucessor = numero+1;
+
+    printf("O antecessor de %d é %d e o sucessor é %d.\n", numero, antecessor, sucessor);
 	
+
+//exercicio7//
+
+	 double total_premio = 780000.00;
+
+    double primeiro = total_premio * 0.46;
+    double segundo = total_premio * 0.32;
+    double terceiro = total_premio * (1.0 - 0.46 - 0.32); // Restante (22%)
+
+    printf("Primeiro ganhador (46%%): R$ %.2f\n", primeiro);
+    printf("Segundo ganhador (32%%): R$ %.2f\n", segundo);
+    printf("Terceiro ganhador (restante): R$ %.2f\n", terceiro);
+
+
+//exercicio8//
+
 	
 //exercicio10//
 	
