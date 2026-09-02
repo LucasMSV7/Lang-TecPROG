@@ -63,7 +63,16 @@ int main(int argc, char *argv[]) {
 
 //exercicio5//
 
-	
+    float graus, radianos;
+    
+    const float p = 3.141592;
+
+    printf("Digite o ângulo em graus: ");
+    scanf("%f", &graus);
+
+    radianos = graus * p / 180.0;
+
+    printf("O ângulo em radianos é: %.6f\n", radianos);	
 	
 	
 //exercicio10//
