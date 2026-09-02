@@ -90,7 +90,7 @@ int main(int argc, char *argv[]) {
 
 //exercicio7//
 
-	 double total_premio = 780000.00;
+	double total_premio = 780000.00;
 
     double primeiro = total_premio * 0.46;
     double segundo = total_premio * 0.32;
