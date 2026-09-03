@@ -103,6 +103,36 @@ int main(int argc, char *argv[]) {
 
 //exercicio8//
 
+   int t_segundos, horas, minutos, segundos;
+
+   printf("Digite um numero: ");
+   scanf("%d", &t_segundos);
+
+   horas = t_segundos / 3600;
+   t_segundos = t_segundos % 3600;
+
+   minutos = t_segundos / 60;
+   segundos = t_segundos % 60;
+
+   printf("%d:%d:%d\n", horas, minutos, segundos);
+
+
+//exercicio9//
+
+	int tempo, velocidade;
+    double distancia, litros;
+
+    printf("Digite o tempo gasto: ");
+    scanf("%d", &tempo);
+    printf("Digite a velocidade média: ");
+    scanf("%d", &velocidade);
+
+    distancia = tempo * velocidade;
+
+    litros = distancia / 12.0;
+
+    printf("%.3lf\n", litros);
+
 	
 //exercicio10//
 	
