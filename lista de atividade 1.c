@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
 
-	//exercicio1//
+//exercicio1//
 
 	int primeiro, segundo, aux;
 	
@@ -17,9 +17,30 @@ int main(int argc, char *argv[]) {
 	  segundo = aux;
 	  
 	printf("%d\n%d", primeiro, segundo);
+
+
+//exercicio2//
+
+	int expoente;
+	double c;
+	printf ("\ninsira um numero: ");
+	scanf ("%lf", &c);
+	if (c >= 10) {
+		while (c >= 10) {
+			c = c/10;
+			expoente++;
+		}
+	};
+	if (c < 1) {
+		while (c <= 1) {
+			c = c*10;
+			expoente--;
+		}
+	};
+	printf("notação cientifica do numero: %lf * 10^%d", c, expoente);
 	
 	
-	//exercicio3//
+//exercicio3//
 	
 	int n, resultado, bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
 	
@@ -48,7 +69,7 @@ int main(int argc, char *argv[]) {
 	        resultado%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);*/
 
 		
-	//exercicio4//
+//exercicio4//
 
 	char nome[50];
 	double salario_fixo, total_vendas, total_receber;
@@ -67,7 +88,7 @@ int main(int argc, char *argv[]) {
 	printf("Total = R$ %.2f\n", total_receber);
 	
 
-	//exercicio5//
+//exercicio5//
 
 	int a,b,c,d;
     int soma, media, produto;
@@ -84,7 +105,7 @@ int main(int argc, char *argv[]) {
     printf("Produtorio: %d\n", produto);
 
 
-	//exercicio6//
+//exercicio6//
 
 	int idade, anos, meses, dias;
 
@@ -101,7 +122,7 @@ int main(int argc, char *argv[]) {
     printf("%d dia(s)\n", dias);
 
 
-	//exercicio7//
+//exercicio7//
 
 	printf("Volume de uma esfera: ");
        
@@ -115,7 +136,7 @@ int main(int argc, char *argv[]) {
      printf("VOLUME = %.3lf\n", volume);	
 
 
-	//exercicio8//
+//exercicio8//
    
    int x1, x2, y1, y2, p1, p2;
    float dist;
