@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main()
-{
+int main(int argc, char *argv[]) {
+	
    int op;
 	printf("Insira qual exercicio quer resolver: [1|2|3|4|5|6|7|8]\n");
 	scanf("%d", &op);
