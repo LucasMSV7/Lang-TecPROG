@@ -19,3 +19,24 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//exercicio8//
+float calc_irpf(float salariobase){
+	if(salariobase<=2259.20) return salariobase;
+	else if(salariobase<=2826.65) return (salariobase*0.075)-169.44;
+	else if(salariobase<=3751.05) return (salariobase*0.15)-381.44;
+	else if(salariobase<=4664.68) return (salariobase*0.225)-662.77;
+	else return (salariobase*0.275)-896.00;
+}
+
+int main(int argc, char *argv[]) {
+		
+	float salariobase;
+	scanf("%f", &salariobase);
+	printf("%f", calc_irpf(salariobase));
+	
+	return 0;
+}
