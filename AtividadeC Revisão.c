@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//exercicio1//
 
 int multDigito(int dig, int valor){
 		return dig*valor;	
@@ -36,3 +37,33 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+
+//exercicio2//
+int main(int argc, char *argv[]) {
+	
+	float temperatura, resultado;
+	char grandeza;
+	
+	printf("Digite o valor da temperatura: ");
+	scanf("%f", &temperatura);
+	
+	printf("Digite a grandeza de entrada (C para Celsius, F para Farenheit): )");
+	scanf("%c", &grandeza);
+	
+	printf("\n---Resultado----\n");
+	
+	if(grandeza == 'C') {
+		resultado = (temperatura*9.0/5.0)+32.0;
+			printf("%.2f°C equivale a %.2f°F\n", temperatura, resultado);
+	}
+	else if (grandeza == 'F'){
+		resultado = (temperatura-32.0)*5.0/9.0;
+			printf("%.2f°F equivale a %.2f°C\n", temperatura, resultado);
+	}
+	else {
+		printf("Grandeza invalida! Por favor, use 'C' ou 'F'.\n");
+	}
+	
+	return 0;
+}
+	
