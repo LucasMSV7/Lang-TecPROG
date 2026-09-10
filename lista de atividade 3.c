@@ -37,6 +37,19 @@ int main(int argc, char *argv[]) {
 	float salariobase;
 	scanf("%f", &salariobase);
 	printf("%f", calc_irpf(salariobase));
+
+
+//exercicio9//
+	float valorhoras, quantidadehoras, salariobruto, salario, salariobase;
+	salariobruto=valorhoras*quantidadehoras;
+	printf("Digite o valaor das horas e quantidade de horas trabalhadas no mes: ");
+	scanf("\n %f \n %f", &valorhoras, &quantidadehoras);
 	
+	salario = salariobruto;
+	salariobase = calc_inss(salario)
+		
+	printf("%f || %f", calc_inss(salario));
+	
+	printf("%f", calc_irpf(salariobase));
 	return 0;
 }
