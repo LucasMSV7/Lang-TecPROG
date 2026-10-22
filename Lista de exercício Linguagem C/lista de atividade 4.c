@@ -7,15 +7,15 @@ int main(int argc, char *argv[]) {
 	int i,j,maior;
 	int valor[5];
 	
-	for(i=0;i<=4;i++){
+	for(i=0;i<=100;i++){
 		printf("digite um numero: ", i+1);
 		scanf("%d", &valor[i]);
 	}
-	for(i=4;i>=0;i--){
+	for(i=99;i>=0;i--){
 		printf("%d", valor[i]);
 	}
-	for(i=0;i<5-1;i++){
-		for(j=0;j<5-i-1;j++){
+	for(i=0;i<100-1;i++){
+		for(j=0;j<100-i-1;j++){
 			if(valor[j]<valor[j+1]){
 				maior = valor[j];
 				valor[j] = valor[j+1];
